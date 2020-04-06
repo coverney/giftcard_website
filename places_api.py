@@ -15,7 +15,8 @@ def get_place_ids(file):
     with open(file) as json_file:
         data = json.load(json_file)
     df = pd.DataFrame(data['results'])
-    return df['place_id'].values
+    # return df['place_id'].values
+    return df['name'].values
 
 
 def get_website(place_id):
