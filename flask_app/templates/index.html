@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Giftcard Website</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna - v2.0.1
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="index"><span>Small Gift, Big Support</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index">Home</a></li>
+          <li><a href="about">About Us</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  <main id="main">
+
+    
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Support local businesses with Gift Cards!</h2>
+          <p>Due to the COVID-19 situation, many local businesses have been struggling to continue operating. This includes restaurants, beauty salons and many others. If you want to help your local favorites go through the pandemic, you can now help by purchasing gift cards from their website! </p>
+        </div>
+
+        <div class="section-title">
+          <h3>Search with state or zip code</h3>
+          <div class="search-form">
+            <form action="{{ url_for('render_search') }}">
+              <input type="text" method="post" name="search">
+              <button type="submit"><i class="icofont-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+
+    <section class="services">
+      <div class="container">
+        
+        {% if show_stores== 1 %}
+        <script>
+          console.log("here");
+        </script>
+          {% for r in range(stores|length // 4+1) %}
+            <div class="row">
+              {% for i in range(r*4, [r*4+4, stores|length]|min) %}
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                  <div class="icon-box icon-box-blue">
+                    <div class="icon"><i class="bx bx-world"></i></div>
+                    <h4 class="title"><a href="">{{stores[i].name}}</a></h4>
+                    <p>{{stores[i].description}}</p>
+                    <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
+                    <p>Giftcard: {{stores[i].giftcard_url}}</p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        {% endif %}
+
+              <!-- <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="icon-box icon-box-pink">
+                  <div class="icon"><i class="bx bx-face"></i></div>
+                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                  <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="icon-box icon-box-cyan">
+                  <div class="icon"><i class="bx bx-store"></i></div>
+                  <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                  <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="icon-box icon-box-green">
+                  <div class="icon"><i class="bx bx-restaurant"></i></div>
+                  <h4 class="title"><a href="">Magni Dolores</a></h4>
+                  <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="icon-box icon-box-blue">
+                  <div class="icon"><i class="bx bx-world"></i></div>
+                  <h4 class="title"><a href="">Nemo Enim</a></h4>
+                  <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                </div>
+              </div> -->
+
+      </div>
+    </section>
+
+    
+    <div class="row" data-aos="fade-up">
+      <div class="col-md-12">
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+          <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+          <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+          <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+        </div>
+
+        <div class="container">
+          <div class="filterDiv cars">BMW</div>
+          <div class="filterDiv colors fruits">Orange</div>
+          <div class="filterDiv cars">Volvo</div>
+          <div class="filterDiv colors">Red</div>
+          <div class="filterDiv cars animals">Mustang</div>
+          <div class="filterDiv colors">Blue</div>
+          <div class="filterDiv animals">Cat</div>
+          <div class="filterDiv animals">Dog</div>
+          <div class="filterDiv fruits">Melon</div>
+          <div class="filterDiv fruits animals">Kiwi</div>
+          <div class="filterDiv fruits">Banana</div>
+          <div class="filterDiv fruits">Lemon</div>
+          <div class="filterDiv animals">Cow</div>
+        </div>
+      </div>
+
+    </div>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about">About us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Moderna</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+  <script src="static/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="static/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="static/assets/vendor/counterup/counterup.min.js"></script>
+  <script src="static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+  <script src="static/assets/js/utils.js"></script>
+
+</body>
+
+</html>
