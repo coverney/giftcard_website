@@ -71,80 +71,64 @@
           <h2>Support local businesses with Gift Cards!</h2>
           <p>Due to the COVID-19 situation, many local businesses have been struggling to continue operating. This includes restaurants, beauty salons and many others. If you want to help your local favorites go through the pandemic, you can now help by purchasing gift cards from their website! </p>
         </div>
-
-        <div class="section-title">
-          <h3>Search with state or zip code</h3>
-          <div class="search-form">
-            <form action="{{ url_for('render_search') }}">
-              <input type="text" method="post" name="search">
-              <button type="submit"><i class="icofont-search"></i></button>
-            </form>
-          </div>
-        </div>
       </div>
     </section><!-- End Features Section -->
 
     <section class="services">
+      <div class="section-title">
+        <h2>Search with state or zip code</h2>
+        <div class="search-form">
+          <form action="{{ url_for('render_search') }}">
+            <input type="text" method="post" name="search">
+            <button type="submit"><i class="icofont-search"></i></button>
+          </form>
+        </div>
+      </div>
       <div class="container">
-        
         {% if show_stores== 1 %}
-        <script>
-          console.log("here");
-        </script>
           {% for r in range(stores|length // 4+1) %}
             <div class="row">
               {% for i in range(r*4, [r*4+4, stores|length]|min) %}
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                  <div class="icon-box icon-box-blue">
-                    <div class="icon"><i class="bx bx-world"></i></div>
-                    <h4 class="title"><a href="">{{stores[i].name}}</a></h4>
-                    <p>{{stores[i].description}}</p>
-                    <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
-                    <p>Giftcard: {{stores[i].giftcard_url}}</p>
-                  </div>
+                  {% if stores[i].storetype == "restaurant" %}
+                    <div class="icon-box icon-box-green">
+                      <div class="icon"><i class="bx bx-restaurant"></i></div>
+                      <h4 class="title">{{stores[i].name}}</h4>
+                      <p>{{stores[i].description}}</p>
+                      <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
+                      <p>Giftcard:<a href=http://{{stores[i].giftcard_url}}>{{stores[i].giftcard_url}}</a></p>
+                    </div>
+                  {% elif stores[i].storetype == "beauty-salon" %}
+                    <div class="icon-box icon-box-pink">
+                      <div class="icon"><i class="bx bx-face"></i></div>
+                      <h4 class="title">{{stores[i].name}}</h4>
+                      <p>{{stores[i].description}}</p>
+                      <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
+                      <p>Giftcard:<a href=http://{{stores[i].giftcard_url}}>{{stores[i].giftcard_url}}</a></p>
+                    </div>
+                  {% else %}
+                    <div class="icon-box icon-box-cyan">
+                      <div class="icon"><i class="bx bx-store"></i></div>
+                      <h4 class="title"><a href=""></a>{{stores[i].name}}</a></h4>
+                      <p>{{stores[i].description}}</p>
+                      <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
+                      <p>Giftcard:<a href=http://{{stores[i].giftcard_url}}>{{stores[i].giftcard_url}}</a></p>
+                    </div>
+                  {% endif %}
                 </div>
               {% endfor %}
             </div>
           {% endfor %}
+        {% else %}
+          <div class="row" data-aos="fade-up">
+            <h4 class="center">Sorry, we still haven't reached your area yet.</h4>
+          </div>    
         {% endif %}
-
-              <!-- <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                <div class="icon-box icon-box-pink">
-                  <div class="icon"><i class="bx bx-face"></i></div>
-                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                  <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                <div class="icon-box icon-box-cyan">
-                  <div class="icon"><i class="bx bx-store"></i></div>
-                  <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                  <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                <div class="icon-box icon-box-green">
-                  <div class="icon"><i class="bx bx-restaurant"></i></div>
-                  <h4 class="title"><a href="">Magni Dolores</a></h4>
-                  <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                <div class="icon-box icon-box-blue">
-                  <div class="icon"><i class="bx bx-world"></i></div>
-                  <h4 class="title"><a href="">Nemo Enim</a></h4>
-                  <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-              </div> -->
-
       </div>
     </section>
 
     
-    <div class="row" data-aos="fade-up">
+    <!-- <div class="row" data-aos="fade-up">
       <div class="col-md-12">
         <div id="myBtnContainer">
           <button class="btn active" onclick="filterSelection('all')"> Show all</button>
@@ -170,8 +154,8 @@
           <div class="filterDiv animals">Cow</div>
         </div>
       </div>
+    </div> -->
 
-    </div>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -230,7 +214,8 @@
 
   <!-- Template Main JS File -->
   <script src="static/assets/js/main.js"></script>
-  <script src="static/assets/js/utils.js"></script>
+
+  <!-- <script src="static/assets/js/utils.js"></script> -->
 
 </body>
 

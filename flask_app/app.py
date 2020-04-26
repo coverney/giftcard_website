@@ -55,22 +55,26 @@ class Store(db.Model):
             'contact_url': self.contact_url
         }
 
-# INSERT INTO store VALUES ('another one','restaurant','233 Main street', 'Needham', 'MA', '02492', 'another place','1.com','12.com','123.com','1234.com');
+# INSERT INTO store VALUES ('Great','restaurant','Xixi street', 'Needham', 'MA', '11111', 'another place','1.com','12.com','123.com','1234.com');
 
 @app.route("/")
 def render_index():
-    print("test")
     return render_template('index.html')
 
 @app.route("/index", methods=['GET','POST'])
 def render_search():
-    query = request.args['search']
-    stores = Store.query.filter_by(zipcode=query)
-    if stores:
-        show_stores = 1
+    if request.args:
+        query = request.args['search']
+        stores = list(Store.query.filter_by(zipcode=query))
+        if stores:
+            show_stores = 1
+        else:
+            show_stores = 0
+        print(show_stores)
+        print(list(stores))
+        return render_template('index.html', stores=stores, show_stores=show_stores)
     else:
-        show_stores = 0
-    return render_template('index.html', stores=list(stores), show_stores=show_stores)
+        return render_template('index.html')
 
 @app.route("/about")
 def render_about():
