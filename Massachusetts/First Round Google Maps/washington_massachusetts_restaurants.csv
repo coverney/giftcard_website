@@ -1,0 +1,361 @@
+name,address,type
+IHOP,1012 Miller Ave,Restaurant
+Outback Steakhouse,20630 Valley Green Dr,Steak
+sweetgreen,300 W El Camino Real,Salad
+Wendy's,990 Saratoga Ave,Fast Food
+Din Tai Fung,2855 Stevens Creek Blvd #1259,Taiwanese
+Outback Steakhouse,1246 Great Mall Dr,Steak
+Five Guys,5205 Prospect Rd,Hamburger
+Wendy's,1313 S Wolfe Rd,Fast Food
+Wendy's,782 S Bascom Ave,Fast Food
+Five Guys,116 E El Camino Real,Hamburger
+Boston Market,2006 El Camino Real,American
+Marie Callender's,751 E El Camino Real,Traditional American
+Chili's Grill & Bar,3591 El Camino Real,Tex Mex
+Maggiano's Little Italy,3055 Olin Ave,Restaurant
+Smashburger,1600 Saratoga Ave #203,Hamburger
+Red Robin Gourmet Burgers and Brews,1000 El Paseo de Saratoga,Restaurant
+The Cheesecake Factory,3041 Stevens Creek Blvd,Restaurant
+Boston Market,1554 S Bascom Ave,American
+Five Guys,2007 Camden Ave,Hamburger
+IHOP,4200 Great America Pkwy,Restaurant
+Red Robin Gourmet Burgers and Brews,248 Great Mall Dr,Restaurant
+McDonald's,1702 Oakland Rd,Fast Food
+Boston Market,1554 S Bascom Ave,American
+Five Guys,2007 Camden Ave,Hamburger
+Outback Steakhouse,5525 Stevenson Blvd,Steak
+IHOP,4200 Great America Pkwy,Restaurant
+IHOP,644 N 1st St,Restaurant
+Five Guys,1205 The Alameda Suite 10,Hamburger
+sweetgreen,440 Castro St,Salad
+P.F. Chang's,390 W El Camino Real,Chinese
+Applebee's Grill + Bar,555 Saratoga Ave,Restaurant
+Olive Garden Italian Restaurant,1350 Great Mall Dr,Italian
+A&W Restaurant,3144 S Bascom Ave,Fast Food
+Red Robin Gourmet Burgers and Brews,2200 Eastridge Loop #2073,Restaurant
+Olive Garden Italian Restaurant,940 Blossom Hill Rd,Italian
+Smashburger,579 Coleman Ave Suite 50,Hamburger
+Olive Garden Italian Restaurant,2226 Eastridge Loop,Italian
+Boston Market,880 Blossom Hill Rd,American
+Shari's Café and Pies,3360 Castro Valley Blvd,Family-friendly
+Olive Garden Italian Restaurant,39145 Farwell Dr,Italian
+The Cheesecake Factory,925 Blossom Hill Rd,Restaurant
+Red Lobster,503 E Calaveras Blvd,Seafood
+Red Lobster,5343 Almaden Expy,Seafood
+A&W Restaurant,1395 Stanwood Dr,Fast Food
+Red Robin Gourmet Burgers and Brews,3906 Rivermark Plaza,Restaurant
+Red Lobster,2040 Aborn Rd,Seafood
+Marie Callender's,620 Blossom Hill Rd,American
+sweetgreen,581 Ramona St Ste 120,Salad
+IHOP,101 Curtner Ave #60,Restaurant
+Wahlburgers,185 University Ave,Hamburger
+Hooters,7944 Dublin Blvd,American
+Hooters,1150 El Camino Real #210,American
+Bonchon - San Leandro,1275 Washington Ave,Asian
+Shari's Cafe and Pies,2010 Rollingwood Dr,Family-friendly
+Applebee's Grill + Bar,51 Curtner Ave,Restaurant
+Lazy Dog Restaurant & Bar,3100 Newpark Mall,Restaurant
+Smashburger,"1701, 10 Airport Blvd Space NC - 9",Hamburger
+P.F. Chang's,925 Blossom Hill Rd #1515,Chinese
+Max's Restaurant Milpitas,1535 Landess Ave #139,Filipino
+sweetgreen,1 E 3rd Ave,Salad
+Red Lobster,39401 Fremont Blvd,Seafood
+TGI Fridays,31900 Dyer St,Restaurant
+The Cheesecake Factory,398 E Sailer Dr,Restaurant
+A&W Restaurant,2120 41st Ave,Fast Food
+P.F. Chang's,900 Stanford Shopping Center Bldg. W,Chinese
+Olive Garden Italian Restaurant,"CAPITOLA MALL, 3400 Clares St",Italian
+Shake Shack,180 El Camino Real #950,Fast Food
+P.F. Chang's,43316 Christy St,Chinese
+A&W Restaurant,37123 Fremont Blvd,Fast Food
+"A&W Hayward, CA",138 Jackson St,Fast Food
+Golden Dragon Restaurant,822 Washington St,Restaurant
+"Max's Restaurant, Cuisine of the Philippines",1155 El Camino Real,Filipino
+Rosa Mexicano,30 Mission St,Mexican
+Red Robin Gourmet Burgers and Brews,2204 Bridgepointe Pkwy,Restaurant
+Max's Restaurant Daly City,309 Gellert Blvd D,Filipino
+DoorDash Kitchens,1531 Main St,Caterer
+Sharks Cage,,Sports bar
+Washington Square Tavern,714 Washington St,American
+Bistro Cacao,316 Massachusetts Ave NE,French
+Cafe Berlin,322 Massachusetts Ave NE,Fine Dining
+Cook Newton,Newton,New American
+Farmers & Distillers,Washington,American
+Jim's | Deli & Restaurant,Brighton,Restaurant
+Ledger Restaurant,Salem,New American
+Cafe Mangal,Wellesley,Turkish
+Chieftain Pub & Restaurant,Plainville,Irish
+Dali,Somerville,Spanish
+RUKA,Boston,Peruvian
+The Abbey,Brookline,American
+Devlin's Bistro & Bar | Restaurant,Brighton,Restaurant
+Luciano's Restaurant,Wrentham,Southern Italian
+Jake's Seafood Restaurant,Hull,Seafood
+Stella Restaurant,Boston,Italian
+Carving Room Kitchen & Bar,Washington,Restaurant
+Millie's Spring Valley,Washington,American
+Byblos,Norwood,Lebanese
+Adriatic Restaurant,Salem,Mediterranean
+The Local Newton,West Newton,American
+Legal Crossing,Boston,Seafood
+Newbridge Cafe,Chelsea,American
+Shogun Japanese Restaurant,Newton,Japanese
+99 Restaurants,North Attleborough,Restaurant
+The Gallows,Boston,New American
+Bronwyn,Somerville,Gastropub
+Rice Valley,Newton,Chinese
+Emma's Everyday Gourmet Restaurant,Westfield,Italian
+Opus,Salem,New American
+LongHorn Steakhouse,North Attleborough,Steak
+District Kitchen & Bar,Pittsfield,American
+Mazzeo's Ristorante,Pittsfield,Italian
+Rosetta's Italian Restaurant,Canton,Italian
+Cutty's,Brookline,Sandwich
+753 South,Boston,American
+Rancho Chico,Plainville,Mexican
+Kelley Square Pub,Peabody,Family-friendly
+Agostino's Italian Restaurant,Natick,Italian
+Pizzeria Paradiso Spring Valley,Washington,Pizza
+Bella Isla Express,Chelsea,Restaurant
+Juliet,Somerville,Fine Dining
+Conrad's Restaurant,Norwood,American
+Brooklyn's Best,Pittsfield,Italian
+Sakura,South Attleboro,Chinese
+Dolphin Seafood,Natick,Seafood
+Southside Tavern Restaurant in Braintree,Braintree,American
+Mon Kou Restaurant,Attleboro,Chinese
+CK Shanghai,Wellesley,Chinese
+Golden House Chinese Restaurant,Roslindale,Chinese
+Mr. Chef's Restaurant,Stoughton,Japanese
+Lemon Thai Cuisine,Wellesley,Thai
+Elizabeth's,Pittsfield,Italian
+Penang Malaysian Cuisine,Boston,Malaysian
+Beijing House Restaurant,Norwell,Chinese
+Bojangles' Famous Chicken 'n Biscuits,Washington,Restaurant
+The Hidden Pig,Haverhill,Gastropub
+Dah-Mee,Natick,Korean
+Coop's Bar & Grill,Quincy,Grill
+The Publick House,Brookline,American
+Patrick's Pub,Pittsfield,Restaurant
+Lucia's Latin Kitchen,Lee,Ecuadorian
+La Fogata Restaurante,Pittsfield,Colombian
+Smashburger,Attleboro,Hamburger
+Dragon Star Chinese Restaurant,Brookline,Chinese
+Santo Domingo Restaurant,Dorchester,Dominican
+Smokey Divas LLC,Pittsfield,Barbecue
+Cork N' Hearth,Lee,Restaurant
+B.GOOD,Boston,Health Food
+Romans | Restaurant and Cuchifritos,Pittsfield,Latin American
+Eat on North,Pittsfield,American
+Ming Du Restaurant,Stoughton,Chinese
+Teddy's Pizza & Restaurant,Pittsfield,Pizza
+Thrive Diner LLC,Pittsfield,Vegan
+110 Grill - Woburn,Woburn,Restaurant
+The Lantern Bar and Grill,Pittsfield,Restaurant
+Amber Road Cafe,Canton,Restaurant
+The Highland Restaurant,Pittsfield,American
+Post. Eatery & Bar,Lee,Restaurant
+Five Guys,Pittsfield,Hamburger
+Salmon Run Fish House,Lee,Seafood
+MINT - Lakeside Indian Dining & Bar,Lee,Indian
+Ozzie's Steak & Eggs,Hinsdale,American
+Baja Charlie's California Cuisine,Lee,Mexican
+Joe's Diner,Lee,Traditional American
+Dream Away,Becket,Grill
+Trattoria Rustica,Pittsfield,Italian
+Bertucci's Italian Restaurant,North Attleborough,Italian
+Chick-fil-A,Woburn,Chicken
+South Street Pizza House,Pittsfield,Pizza
+Zucco's Family Restaurant,Pittsfield,Restaurant
+Flavours of Malaysia,Pittsfield,Malaysian
+Papa Joe's,Pittsfield,Pizza
+51 Park Restaurant & Tavern,Lee,American
+Roses Restaurant,Lee,American
+Alpamayo Peruvian Cuisine,Lee,Peruvian
+Vong's Thai Cuisine,Pittsfield,Thai
+Anchan House Of Thai Food,Braintree,Restaurant
+Tito's Mexican Grill,Pittsfield,Mexican
+99 Restaurants,Pittsfield,Restaurant
+Teo's | Hotdogs Restaurant,Pittsfield,Restaurant
+Rainbow Restaurant,Pittsfield,Family-friendly
+Maxwell Luciano's Banquet and Conference Center,Worcester,American
+Shouk,Washington,Israeli
+Morgan House Inn & Restaurant,,American
+Freddie's Place Olde Fashion Soda Shoppe,Pittsfield,Breakfast
+New Asian Garden,Pittsfield,Chinese
+Otto's Kitchen & Comfort,Pittsfield,American
+Cabot's,Newton,Ice Cream
+Port Smitt's,Pittsfield,Family-friendly
+Jae's Restaurant,Pittsfield,Sushi
+Back Deck,Boston,American
+Panda House Chinese Restaurant,Lenox,Asian
+Parkside,Pittsfield,Grill
+Timothy's | Restaurant & Pizzeria,Lee,Italian
+Empire Garden Restaurant,Boston,Chinese
+Bertucci's Italian Restaurant,Holliston,Italian
+Johnny Rockets,Washington,Restaurant
+Trattoria Il Vesuvio,Lenox,Italian
+HipCityVeg,Washington,Vegan
+Pancho's Mexican Restaurant,Pittsfield,Mexican
+Luau Hale Restaurant,Lenox,Polynesian restaurant
+Hot Dog Ranch,Pittsfield,American
+Friends Grille,Pittsfield,Grill
+China Station,Dorchester Center,Chinese
+Sloane's Tavern,Lenox,Restaurant
+Nudel Restaurant,Lenox,American
+Sen Sushi,Pittsfield,Sushi
+Hot Tomatoes Pizza,Pittsfield,Pizza
+Chez Nous Bistro,Lee,Bistro
+Cherry Tree,Newton,Bar
+Mandu,Washington,Korean
+Starving Artist Creperie and Cafe,Lee,Restaurant
+Papa Gino's,Pittsfield,Pizza
+Burger King,South Attleboro,Fast Food
+Prado’s Cafe | Breakfast & Lunch,Lee,Breakfast
+Subway,Pittsfield,Sandwich
+Samel's Deli and Catering,Pittsfield,Sandwich
+Ankara,Washington,Mediterranean
+Friendly's - Delivery & Takeout Only,Pittsfield,Takeout Restaurant
+Athena's Restaurant & Pizzeria,Lee,Pizza
+China Wok,Pittsfield,Chinese
+Hangar Pub and Grill of Pittsfield,Pittsfield,Grill
+Kelly's Diner,Pittsfield,Diner
+Restaurant Depot,San Jose,Restaurant supply store
+Hot Harry's Fresh Burritos,Pittsfield,Mexican
+Raphael's Restaurant,Boston,Caribbean
+Mazcot's Sports Bar And Grill,Lenox,Restaurant
+Hot Harry's Burritos - North St,Pittsfield,Mexican
+Bistro at Blantyre,Lenox,Restaurant
+Mission,Pittsfield,Restaurant
+Villa Fresh Italian Kitchen,Lee,Pizza
+Vivaldi's Pizzeria,Lee,Pizza
+The Marketplace Cafe,Pittsfield,Cafe
+Chiara,Westwood,Mediterranean
+Pizza Hut,Pittsfield,Pizza
+Uncle Mark's,Auburn,Diner
+Eighty Eight Cafe,Winchester,Asian
+Gloria's Place,Hinsdale,Soul
+Eller's Restaurant,Cherry Valley,Family-friendly
+Da Hong Pao Restaurant and Bar,Washington,Chinese
+Busboys and Poets,Washington,American
+Red Apple,Lee,Chinese
+Wyndhurst,Lenox,American
+Union Oyster House,Boston,Seafood
+Arizona Pizza Co,Lenox,Pizza
+Nando's Peri-Peri,Washington,South African
+McDonald's,Hudson,Fast Food
+Alta,Lenox,Mediterranean
+Stacie's Corner Cafe,Dalton,Restaurant
+Liberty Pizza,Pittsfield,Pizza
+Bantam King,Washington,Ramen
+Misty Moonlight Diner,Pittsfield,Diner
+Hinsdale Trading Company,Hinsdale,Pizza
+Dottie's Coffee Lounge,Pittsfield,Restaurant
+Subway,Wellesley,Sandwich
+Local Lee Scooped Homemade Ice Cream,Lee,Restaurant
+Subway,Pittsfield,Sandwich
+District Taco,Washington,Mexican
+Chuck E. Cheese,Attleboro,Children's amusement center
+UNO Pizzeria & Grill,Washington,Pizza
+The Rooftop at The Embassy Row Hotel,Washington,Restaurant
+Orient Taste,Lee,Chinese
+Longfellow's Wayside Inn,Sudbury,3-star hotel
+Backyard Barbeque LLC.,Pittsfield,Barbecue
+I Love Nick's,Roslindale,Pizza
+That's a Wrap Cafe,Pittsfield,Sandwich
+CAVA,Washington,Mediterranean
+JINYA Ramen Bar,Washington,Ramen
+Unconventional Diner,Washington,Diner
+Sakura Hibachi Steakhouse,Pittsfield,Steak
+Papa John's Pizza,Lenox,Pizza
+Subway,Lenox,Sandwich
+Brava,Lenox,Restaurant
+Legal Sea Foods,Boston,Seafood
+Locker Room Sports Bar,Lee,Restaurant
+Big Y Food Service,Lee,Takeout Restaurant
+Reren Lamen & Bar,Washington,Asian
+Little Sesame,Washington,Restaurant
+b Springfield,Springfield,Hamburger
+Auntie Anne's,Washington,Restaurant
+Dedham House of Pizza,Dedham,Pizza Delivery
+Panda Garden,Pittsfield,Chinese
+Golden Phoenix,Pittsfield,Chinese
+Panda Garden,Lee,Chinese
+The Four's Restaurant & Sports Bar,Boston,Restaurant
+May East Restaurant,South Easton,Chinese
+East Side Cafe,Pittsfield,Cafe
+Cane,Washington,Restaurant
+Daddyo's Diner,Pittsfield,Diner
+Empire Pizza Restaurant,Pittsfield,Pizza
+Via Sophia,Washington,Italian
+The Avenue,Washington,American
+Koi,Great Barrington,Restaurant
+Berkshire Mountain Bakery Pizza Cafe,Pittsfield,Bakery
+UNO Pizzeria & Grill,Holyoke,Pizza
+Haven,Lenox,Restaurant
+Burger King,Lenox,Fast Food
+Burger King,Pittsfield,Fast Food
+UNO Pizzeria & Grill,Springfield,Pizza
+Papa Gino's,Lee,Pizza
+Ben & Jerry’s,Pittsfield,Ice Cream
+Subway,Pittsfield,Sandwich
+Papa Joe’s,,Restaurant
+Berkshire Carousel,Pittsfield,Arts organization
+Wok n Talk( Brighton),Brighton,Chinese
+McDonald's,Roxbury,Fast Food
+UNO Pizzeria & Grill,Springfield,Pizza
+Amazing Pavilion,Pittsfield,Asian
+McDonald's,Lee,Fast Food
+Carving Room NoMa,Washington,Restaurant
+Subway,Pittsfield,Sandwich
+McDonald's,Lee,Fast Food
+Vroom Service Now,,Restaurant
+Angelina's Submarine Shops,Pittsfield,Sandwich
+The Flipside,Washington,Restaurant
+McDonald's,Pittsfield,Fast Food
+Dunkin',Lee,Coffee shop
+Crystal City Restaurant - Gentleman's Club,Arlington,Traditional American
+Subway,Lee,Sandwich
+Subway,Lee,Sandwich
+Burger King,West Roxbury,Fast Food
+Angelina's Submarine Shop,Pittsfield,Sandwich
+Right Taste Jamaican Restaurant,Boston,Jamaican
+Dunkin',Pittsfield,Coffee shop
+Dunkin',Pittsfield,Coffee shop
+Spice 6 Modern Indian,Hyattsville,Indian
+Blossom Bar at Sichuan Garden,Brookline,Bar
+pizzeria - bakery - diner,Pittsfield,Diner
+McDonald's,Lee,Fast Food
+Angelina's Submarine Shops,Pittsfield,Sandwich
+Domino's Pizza,Pittsfield,Pizza Delivery
+DoorDash On-Boarding Center - Santa Clara/Sunnyvale,Sunnyvale,Delivery Restaurant
+BJ's Restaurant & Brewhouse,North Attleborough,Restaurant
+Dunkin',Pittsfield,Coffee shop
+Fresh City,Lee,Salad
+Shell,Auburn,Restaurant
+Daikaya The Izakaya,Washington,Ramen
+Taco Bell,Hudson,Fast Food
+Concord's Colonial Inn,,3-star hotel
+Chili's Grill & Bar,Pittsfield,Tex Mex
+A&W Restaurant,Hudson,Fast Food
+Bluejacket,Washington,Brewery
+Restaurant Depot,San Francisco,Restaurant supply store
+Nordstrom E-Bar,San Francisco,Coffee shop
+D'Angelo Grilled Sandwiches,Lee,Sandwich
+Restaurant Depot/Jetro,Oakland,Restaurant supply store
+Bella Isla Cafe,Chelsea,Cafe
+Restaurant Depot,Chicopee,Restaurant supply store
+Dining at Blantyre,Lenox,Food and drink
+Massachusetts Restaurant Association,Westborough,Association or organization
+The Henley Park Hotel,,3-star hotel
+Massachusetts Horticultural Society - The Gardens at Elm Bank,Wellesley,Wedding venue
+Restaurant Associates,New York,Corporate campus
+Elm Bank,Wellesley,Park
+Restaurant Depot,Albany,Restaurant supply store
+Conservatory at Blantyre,Lenox,Food and drink
+600 Mass Ave,Washington,Business center
+425 Mass Apartments,Washington,Apartment building
+1500 Mass Apartments,Washington,Apartment building
+Wheaton College,Norton,Private college
+Unidine Corporation,Boston,Food service
+Berkshire Burrito,,Fast Food

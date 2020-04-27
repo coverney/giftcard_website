@@ -1,0 +1,652 @@
+restaurants,book_stores,florists,clothing_stores,beauty_salons,museums
+,community college,community college,cosmetics store,community college,tractor dealer
+,cosmetics store,cosmetics store,nonprofit organization,nonprofit organization,photo lab
+,nonprofit organization,good earth designs planting,guitar store,indian,nonprofit organization
+,guitar store,warehouse,tack shop,south suburban open mri of orland llc,cosmetics store
+,indian,paint store,office equipment supplier,wendy m schweinfurth od,feet first exhibition
+,handicraft school,tuxedo shop,produce market,print shop,peoria
+,tack shop,swift shuttle,motorsports store,marketing agency,beach park fire department
+,office equipment supplier,produce market,print shop,auto tune up service,performing arts theater
+,produce market,seed supplier,yoga studio,dance hall,obstetriciangynecologist
+,used bicycle shop,ice cream,marketing agency,dental clinic,religious organization
+,motorsports store,print shop,hobby store,thrift store,family practice physician
+,print shop,farmers' market,community center,orthodontist,civil police
+,marketing agency,animal hospital,electrician,gym,dialysis center
+,hobby store,creative designs,sportwear manufacturer,water utility company,ice cream
+,rock climbing gym,hobby store,trophy shop,cigar shop,toy store
+,wedding planner,fashion accessories store,herbal medicine store,trophy shop,walkin clinic
+,bed & breakfast,sports bar,animal feed store,dance school,marine supply store
+,printing,wedding planner,lighting store,building materials store,animal protection organization
+,community center,liquor store,cabinet store,wedding service,amphitheater
+,electrician,watch store,building materials store,nutritionist,day care center
+,gym,home improvement store,tire shop,physical therapist,sports bar
+,cigar shop,convenience store,sandwich,middle school,rock climbing gym
+,trophy shop,running store,party equipment rental service,sandwich,ford dealer
+,herbal medicine store,auto body shop,digital printing service,lawn care service,title company
+,animal feed store,st rose township,makeup artist,party equipment rental service,christmas tree farm
+,lighting store,electronics repair shop,woodworker,clothing store,beauty school
+,cabinet store,electrical supply store,ski shop,united church of christ,state park
+,building materials store,funeral director,medical diagnostic imaging center,employment agency,convenience store
+,orchestra,preschool,car detailing service,lymph drainage therapist,home improvement store
+,hair replacement service,4star hotel,fish store,gift shop,auto body shop
+,middle school,retirement community,musical instrument rental service,pizza,bed & breakfast
+,tire shop,business to business service,scouting,indoor golf course,city government office
+,sandwich,event management company,massage therapist,urban edge,community center
+,party equipment rental service,newspaper advertising department,event ticket seller,boutique,hotel
+,jewelry designer,gym,importer,vascular surgeon,moto armory
+,clothing store,hairdresser,crane dealer,airport,electrical supply store
+,woodworker,water utility company,wellness center,mobile home park,florist
+,car detailing service,water treatment plant,rock shop,the social life,4star hotel
+,men's clothing store,educational supply store,shooting range,real estate agency,preschool
+,bicycle repair shop,refrigerator store,tshirt company,government office,united states holocaust memorial
+,pizza,greeting card shop,environmental health service,wellness center,presbyterian church
+,boutique,warehouse club,outdoor sports store,wedding venue,cultural center
+,wood floor installation service,senior citizen center,car stereo store,alcoholism treatment program,dental clinic
+,massage therapist,building materials store,auto repair shop,mulch supplier,gym
+,camera store,disability services & support organisation,dodge dealer,event venue,recreation center
+,fraternal organization,landscape architect,golf course,auto repair shop,retirement community
+,church supply store,wedding service,racing car parts store,pizza delivery,breakfast
+,miniatures store,school,variety store,plastic surgery clinic,sfz corporation
+,used tire shop,rehabilitation center,design,body piercing shop,catholic school
+,mucks place,monument maker,leather goods store,occupational therapist,silvis
+,government office,middle school,stationery store,chocolate shop,abbey
+,real estate agency,tire shop,health consultant,preparatory school,construction
+,coffee roasters,party store,body piercing shop,tailor,cable car station
+,rock shop,party equipment rental service,chocolate shop,driving school,graphic designer
+,cake shop,charity,appliance repair service,commercial printer,tax assessor
+,shooting range,medical supply store,gift basket store,antique store,high school
+,lingerie store,pet groomer,commercial printer,beautician,senior citizen center
+,video duplication service,clothing store,kitchen remodeler,tool store,shopping mall
+,scuba instructor,community seed & feed,antique store,mattress store,blackhawk station fox river trolley
+,farm shop,wine store,motorcycle shop,medical group,auction house
+,alcoholism treatment program,nature preserve,screen printing shop,cell phone store,polish
+,outdoor sports store,warehouse store,rv dealer,church of christ,west dundee
+,adult education school,beauty salon,tool store,church,union school apartments
+,car stereo store,pediatric dentist,marina,medical office,school
+,television station,landscaping supply store,mattress store,barber supply store,physical therapist
+,auto repair shop,banquet hall,hearing aid store,washer & dryer repair service,county court
+,golf course,johnsonmiller funeral chapel,laundry service,twin logistic group,rehabilitation center
+,office supply wholesaler,car detailing service,cell phone store,balloon artist,lodging
+,pana,assisted living facility,adult dvd store,tourist attraction,after school program
+,variety store,gift shop,internet service provider,nondenominational church,mexican
+,computer store,drug store,laundry,sherry's hot spot,real estate consultant
+,racing car parts store,fast food,metaphysical supply store,dog trainer,tire shop
+,leather goods store,pizza,chrysler dealer,car alarm supplier,charity
+,wallpaper store,country club,barber supply store,movie theater,party equipment rental service
+,stationery store,women's clothing store,sports memorabilia store,3star hotel,massage spa
+,health consultant,boutique,personal trainer,veterans organization,food products supplier
+,body piercing shop,dollar store,roofing contractor,homeowners' association,party store
+,chocolate shop,home goods store,exercise equipment store,tattoo and piercing shop,sandwich
+,abc self storage,event planner,monogramming service,stable,algonquin
+,appliance repair service,industrial equipment supplier,hunting and fishing store,pet supply store,women's health clinic
+,plus size clothing store,corporate office,surplus store,chiropractor,train station
+,recreational vehicle rental agency,massage therapist,plumbing supply store,taekwondo school,nature preserve
+,commercial printer,engraver,tattoo and piercing shop,dress store,pottery store
+,kitchen remodeler,hospital,leather repair service,fire station,italian
+,infiniti dealer,promotional products supplier,pet supply store,self service car wash,beauty salon
+,antique store,restaurant,chiropractor,motel,post office
+,rv dealer,loan agency,car battery store,funeral home,pediatric dentist
+,water works equipment supplier,mental health service,cosmetics industry,eye care center,emergency room
+,tool store,importer,news service,apartment complex,library
+,mattress store,bird shop,lumber store,farm,banquet hall
+,hearing aid store,government office,funeral home,flight school,consultant
+,cell phone store,real estate agency,eye care center,function room facility,landscaping supply store
+,adult dvd store,optician,upholstery shop,cemetery,ambulance service
+,internet service provider,camp,used furniture store,metal fabricator,assisted living facility
+,church,metal workshop,golf shop,department store,car dealer
+,car security system installer,pharmacy,radio broadcaster,alternative medicine practitioner,gift shop
+,civil law attorney,craft store,department store,tobacco shop,drug store
+,metaphysical supply store,cake shop,swimming pool supply store,house cleaning service,chevrolet dealer
+,chrysler dealer,private school,tobacco shop,mortgage lender,historical place
+,electronic parts supplier,video duplication service,banner store,american,fast food
+,sports memorabilia store,wedding venue,water softening equipment supplier,transmission shop,country club
+,community mission center,professional services,christmas store,volvo dealer,pizza
+,childrens cafe,greenhouse,safety equipment supplier,physical examination center,grocery delivery service
+,used clothing store,deli,american,sally,women's clothing store
+,exercise equipment store,property investment,swimming pool contractor,warehouse,art
+,costume rental service,morgan park,transmission shop,obstetriciangynecologist,paving contractor
+,lexus dealer,watch repair service,warehouse,dialysis center,park
+,bathroom remodeler,public library,sunglasses store,nephrologist,corporate office
+,jeweler,courier service,yamaha motorcycle dealer,butcher shop,bridge
+,hunting and fishing store,general hospital,butcher shop,plumber,neurologist
+,measuring instruments supplier,pediatrician,plumber,notary public,vaporizer store
+,linens store,selfstorage facility,farm equipment supplier,dental implants periodontist,historical landmark
+,estate liquidator,laboratory,atv dealer,florist,hospital
+,surplus store,furniture store,natural goods store,architect,cosmetic dentist
+,movie theater,auto repair shop,video store,flower designer,fraternal organization
+,3star hotel,pizza delivery,electronics repair shop,distribution service,hillsboro
+,plumbing supply store,business center,florist,water treatment plant,state government office
+,wedding store,locksmith,flower designer,personal injury attorney,restaurant
+,shipping company,golf course,gmc dealer,graphic designer,lasik surgeon
+,public golf course,veterinarian,graphic designer,warehouse club,chapel
+,utility trailer dealer,plant nursery,warehouse club,dermatologist,mental health service
+,tattoo and piercing shop,storage facility,shopping mall,shopping mall,physical therapy clinic
+,electrical engineer,child care agency,chinaware store,business park,garden
+,korean grocery store,neon sign shop,hockey supply store,mexican,mobile home park
+,pet supply store,bakery,mexican,check cashing service,cardiologist
+,rock falls,cannabis store,jeep dealer,dental laboratory,club
+,chiropractor,photographer,medical supply store,army facility,real estate agency
+,car battery store,chocolate shop,novelty store,pet groomer,optician
+,lincoln dealer,dessert shop,toyota dealer,acupuncture clinic,pharmacy
+,dress store,landscaper,art supply store,sauna,private school
+,news service,candle store,pet groomer,italian,horse riding
+,motel,gift basket store,meat wholesaler,kids cutsmc henry,wedding venue
+,pallet supplier,metal stamping service,establishment,reiki therapist,armenian
+,funeral home,chinese,beauty salon,wig shop,screen printer
+,lumber store,dairy,warehouse store,car dealer,property investment
+,eye care center,accountant,landscaping supply store,fast food,art school
+,financial consultant,baking supply store,fireworks store,women's clothing store,public library
+,reptile store,kitchen remodeler,wig shop,vitamin & supplements store,bmx track
+,golf driving range,antique store,car dealer,vaporizer store,tour operator
+,farm,elementary school,drug store,home goods store,visitor center
+,flight school,police department,comic book store,park,prison
+,used furniture store,silk plant shop,music store,handyman,general hospital
+,golf shop,2star hotel,childrens store,event planner,county government office
+,crane service,food court,fast food,restaurant,pediatrician
+,mitsubishi dealer,manufacturer,vitamin & supplements store,loan agency,pumping equipment and service
+,department store,rv dealer,vaporizer store,mental health service,tattoo shop
+,swimming pool supply store,bank,home goods store,physical therapy clinic,selfstorage facility
+,tobacco shop,mechanical contractor,event planner,home health care service,event venue
+,water softening equipment supplier,hearing aid store,local medical services,optician,federal government office
+,jewelry repair service,cell phone store,restaurant,cold storage facility,board of education
+,truck parts supplier,875 north michigan avenue,mental health service,auto glass shop,garden center
+,christmas store,fitness equipment wholesaler,home health care service,ecommerce service,golf course
+,music box store,insurance agency,tropical fish store,pediatrician,pizza delivery
+,american,city hall,optician,xray lab,auto repair shop
+,salad,hair salon,spa,furniture store,russell
+,swimming pool contractor,university,art studio,garden center,learning center
+,volvo dealer,store,invitation printing service,used auto parts store,money transfer service
+,food store,sign shop,police supply store,towing service,used auto parts store
+,school supply store,costume store,archery range,money transfer service,veterinarian
+,flea market,gourmet grocery store,greenhouse,siding contractor,pumpkin patch
+,guitar instructor,cremation service,nail salon,pharmaceutical company,planetarium
+,hotel supply store,supermarket,ecommerce service,podiatrist,haunted house
+,retreat center,food and beverage exporter,pediatrician,color room,rockford
+,warehouse,brewpub,audiologist,chinese,bakery
+,auto auction,beauty supply store,furniture store,elementary school,photographer
+,butcher shop,attorney,garden center,2star hotel,occupational therapist
+,plumber,caterer,used auto parts store,movie rental store,home builder
+,farm equipment supplier,railroad contractor,leather coats store,color me joy,charter school
+,scrap metal dealer,sweet pea's,cannabis store,nursing agency,park city
+,electronics repair shop,flooring store,fishing store,mechanical contractor,recycling center
+,natural goods store,medical center,drafting service,martial arts school,bus stop
+,video store,roofing contractor,corporate campus,city hall,cafe
+,florist,bridal shop,butcher shop deli,store,beach
+,metal heat treating service,optometrist,oxygen equipment supplier,health food store,chinese
+,distribution service,wedding photographer,movie rental store,the era studio,steak
+,gmc dealer,electronics store,garbage collection service,optometrist,accountant
+,dvd store,jeweler,tea house,specialized clinic,aquatic centre
+,surgical supply store,museum,knife store,motorcycle repair shop,elementary school
+,meat products,pet boarding service,popcorn store,seafood,police department
+,piano instructor,social services organization,store,shoe store,2star hotel
+,dump truck dealer,italian grocery store,gourmet grocery store,apartment building,nissan dealer
+,trailer manufacturer,dairy farm,decal supplier,fine dining,antique store
+,warehouse club,shoe store,used book store,tacos,gastropub
+,shopping mall,used car dealer,newspaper publisher,nursing home,municipal administration office
+,chinaware store,electronics manufacturer,beauty supply store,occupational health service,fishing charter
+,mexican,design agency,flooring store,public health department,amusement center
+,jeep dealer,catholic church,cookies,auto insurance agency,school district office
+,medical supply store,association or organization,health food store,barbecue,manufacturer
+,food products supplier,nursing home,countertop store,blazing color inc,computer service
+,novelty store,wedding store,children's furniture store,furniture manufacturer,bank
+,auto body parts supplier,hardware store,optometrist,kimberly d woodworth msotrl,marina
+,toyota dealer,motorcycle dealer,outlet mall,dentist,arboretum
+,pet groomer,brewery,office supply store,pink the shoppe,cell phone store
+,aircraft supply store,public golf course,pet store,dry cleaner,city hall
+,italian,window tinting service,motorcycle repair shop,medical clinic,insurance agency
+,publisher,pet supply store,truck rental agency,city tax office,observation deck
+,warehouse store,diner,froyo,gun shop,transit station
+,beauty salon,chiropractor,barber shop,fertility physician,brunch
+,landscaping supply store,takeout restaurant,bagel shop,real estate agents,university
+,fireworks store,chamber of commerce,cadillac dealer,grocery store,east moline fire department
+,wig shop,dentist,musical instrument manufacturer,doctor,sports complex
+,land rover dealer,jewelry store,soccer store,fur service,housing development
+,car dealer,dress store,dive shop,grill,church
+,forklift dealer,methodist church,martial arts club,gas station,store
+,primary school,collectibles store,dry cleaner,senior high school,lily lake
+,drug store,balloon store,cricket shop,psychotherapist,brewpub
+,vitamin & supplements store,lyons cold storage,gun shop,wholesaler,amusement park
+,fast food,formal wear store,real estate agents,mri center,used book store
+,women's clothing store,economic development agency,grocery store,family practice physician,light rail station
+,small appliance repair service,general contractor,game store,video arcade,newspaper publisher
+,muffler shop,wedding bakery,discount supermarket,religious organization,picture frame shop
+,vaporizer store,city tax office,fur service,car wash,records storage facility
+,home goods store,funeral home,truck stop,land surveyor,japanese
+,event planner,auto parts store,pipe supplier,studio intrigue,elgin historic district
+,park,medical clinic,gas station,5star hotel,east moline
+,handyman,eye care center,feed manufacturer,title company,internist
+,chatham,photo shop,wholesaler,convenience store,optometrist
+,movie rental,candy store,trailer repair shop,bellwood,custom home builder
+,state government office,gun shop,bedding store,studio 901,tourist attraction
+,restaurant,real estate agents,yarn store,city government office,arts organization
+,loan agency,grocery store,toy store,preschool,nondenominational church
+,aromatherapy supply store,coffee shop,marine supply store,4star hotel,lilymoor
+,bird shop,farm,internet marketing service,retirement community,chicken
+,home health care service,jojo the balloon lady,dairy store,executive suite rental agency,ophthalmologist
+,tropical fish store,tax preparation service,ford dealer,orthotics & prosthetics service,pet store
+,optician,pawn shop,convenience store,greeting card shop,counselor
+,art studio,conference center,garbage dump service,high school,historical society
+,flooring,interior designer,army & navy surplus shop,aircraft maintenance company,car racing track
+,irish goods store,cemetery,christian book store,senior citizen center,live music
+,greenhouse,public safety office,custom tshirt store,rehabilitation center,seafood
+,archery range,portrait studio,website designer,stacy's cafe,shipping and mailing service
+,music instructor,metal fabricator,greeting card shop,plastic surgeon,familyfriendly
+,nail salon,radio broadcaster,mover,welder,educational institution
+,tour operator,department store,flooring contractor,post office,truck rental agency
+,financial institution,new american,auction house,passport photo processor,used car dealer
+,ecommerce service,doctor,donations center,banquet hall,catholic church
+,audiologist,interior plant service,packaging supply store,assisted living facility,apartment building
+,furniture store,hvac contractor,charity,dollar store,association or organization
+,garden center,grill,sports usa,robert's stylo & color,fine dining
+,used auto parts store,gas station,mechanic,industrial equipment supplier,3star hotel
+,towing service,golf club,quilt shop,jehovah's witness kingdom hall,nursing home
+,learning center,artist,pottery store,cancer treatment center,bar
+,cd store,banner store,used appliance store,college,music school
+,contractor,truck parts supplier,passport photo processor,lasik surgeon,tacos
+,w j murphy elementary school,consignment shop,fur coat shop,organic shop,environmental program
+,cannabis store,ice skating rink,fireplace store,martina martin,motor vehicle dealer
+,fishing store,landscape designer,outlet store,ready mix concrete supplier,veterans organization
+,emergency training,olin corporation,dollar store,wellness program,municipal corporation
+,swimming pool,tobacco shop,industrial equipment supplier,professional services,froyo
+,podiatrist,christmas store,food bank,public library,public golf course
+,cutlery store,fruit and vegetable store,indian grocery store,prison,chaney monge pool
+,cars,american,cupcakes,donuts,barbecue
+,butcher shop deli,salad,glass repair service,business center,agricultural machinery manufacturer
+,baking supply store,,stained glass studio,baptist church,brewery
+,elementary school,,health and beauty shop,landscaper,krause werner
+,movie rental store,,advertising agency,bartending school,campground
+,2star hotel,,health food,accountant,diamond lake
+,craft & antique mall,,deli,metal finisher,kia dealer
+,school district office,,video game store,manufacturer,research institute
+,tea house,,tile store,bank,shipping service
+,martial arts school,,donuts,community health centre,diner
+,shoe repair shop,,business center,night club,chiropractor
+,history museum,,kitchen supply store,insurance agency,railroad company
+,popcorn store,,child care agency,dr laura p hill md,apartment rental agency
+,store,,car repair and maintenance,boxing club,university library
+,gourmet grocery store,,landscaper,concrete contractor,southern
+,newspaper publisher,,restaurant supply store,supermarket,atm
+,beauty supply store,,embroidery service,caterer,chamber of commerce
+,flooring store,,manufacturer,bridal shop,cary
+,adult entertainment club,,pregnancy care center,meat packer,trucking company
+,cookies,,archery store,orthopedic clinic,dentist
+,cabinet maker,,suzuki motorcycle dealer,angel obe,methodist church
+,health food store,,discount store,tree service,carnival club
+,countertop store,,business management consultant,wedding photographer,wauconda township
+,children's furniture store,,distributary,chicken,chicken wings
+,optometrist,,supermarket,tattoo removal service,episcopal church
+,outlet mall,,book store,pet boarding service,bowling alley
+,office supply store,,picture frame shop,used car dealer,fire station
+,pet store,,used computer store,wholesale plant nursery,tourist information center
+,motorcycle repair shop,,pest control service,surgical center,motel
+,seafood,,lawn mower store,auto parts store,art center
+,truck rental agency,,bistro,pony ride service,zoo
+,shoe store,,tanning salon,photo shop,entertainer
+,apartment building,,electronics store,tax preparation service,gastroenterologist
+,office furniture store,,shipping and mailing service,interior designer,medical clinic
+,nursing home,,italian grocery store,mental health clinic,grandwood park
+,froyo,,used car dealer,vanity palace,funeral home
+,auto insurance agency,,motor vehicle dealer,landscape designer,auto parts store
+,flower delivery,,motorcycle dealer,children's amusement center,soccer club
+,brewery,,general store,medical center,retirement home
+,barber shop,,doityourself shop,truck repair shop,lounge
+,bagel shop,,second hand store,paint store,photo shop
+,cadillac dealer,,art gallery,stylist,eye care center
+,kia dealer,,lawn mower repair service,weight loss service,candy store
+,knit shop,,atm,pain management physician,apartment complex
+,soccer store,,collectibles store,ice cream,parking lot
+,youth organization,,truck dealer,heating contractor,farm
+,audi dealer,,african goods store,animal hospital,grocery store
+,dive shop,,birth center,farmers' market,oncologist
+,mailing service,,pie shop,day care center,coffee shop
+,dentist,,auto parts store,barber school,memorial park
+,jaguar dealer,,beauty,fashion accessories store,machine shop
+,uniform store,,photo shop,liquor store,conference center
+,mercedesbenz dealer,,candy store,self defense school,department store
+,otolaryngologist,,building materials supplier,bankruptcy attorney,doctor
+,medical clinic,,motorcycle parts store,home improvement store,grill
+,city tax office,,bowling supply shop,auto body shop,gas station
+,wedding bakery,,maternity store,welding supply store,golf club
+,gun shop,,interior designer,laundromat,artist
+,grocery store,,health spa,botanical garden,memorial estate
+,japanese grocery store,,glass engraver,medical billing service,ice skating rink
+,sportswear store,,auto broker,recreation center,horseback riding service
+,violin shop,,musical instrument store,equipment rental agency,exhibit
+,discount supermarket,,educational consultant,school,medical center
+,printing equipment and supplies,,tractor dealer,credit union,mortgage lender
+,dental supply store,,truck repair shop,women's health clinic,american
+,truck stop,,paint store,heaven on earth,
+,bethalto,,weight loss service,wine store,
+,doctor,,ice cream,holistic medicine practitioner,
+,metal supplier,,horse trailer dealer,nature preserve,
+,pipe supplier,,embroidery shop,pub,
+,gas station,,farmers' market,employment center,
+,escape room center,,liquor store,pediatric dentist,
+,grill,,home improvement store,trade school,
+,fruit and vegetable store,,snowmobile dealer,shear country,
+,doll store,,running store,corporate office,
+,wholesaler,,auto body shop,hospital,
+,aquarium shop,,welding supply store,boat dealer,
+,video arcade,,electrical supply store,apostolic church,
+,tuxedo shop,,equipment rental agency,adult entertainment store,
+,religious organization,,educational supply store,psychic,
+,yarn store,,antique furniture store,pharmacy,
+,car wash,,bait shop,trailer dealer,
+,marine supply store,,skateboard shop,property management company,
+,internet marketing service,,computer repair service,plaza,
+,ford dealer,,party store,screen printer,
+,st paul's united churchchrist,,asian grocery store,wine bar,
+,watch store,,wine store,orthopedic surgeon,
+,juice,,party planner,county government office,
+,convenience store,,security system supplier,tattoo shop,
+,bus company,,harleydavidson dealer,selfstorage facility,
+,city government office,,chevrolet dealer,wood river city clerk,
+,dog day care center,,bookkeeping service,laboratory,
+,buick dealer,,furniture rental service,locksmith,
+,hotel,,vacuum cleaner repair shop,shed builder,
+,work clothes store,,diamond dealer,veterinarian,
+,preschool,,corporate office,chemical manufacturer,
+,4star hotel,,roofing supply store,pumpkin patch,
+,courthouse,,scrapbooking store,bakery,
+,army & navy surplus shop,,carpet installer,mosque,
+,custom tshirt store,,carpet store,photographer,
+,bmw dealer,,boat dealer,megwear,
+,musical instrument repair shop,,meat processor,window treatment store,
+,mover,,promotional products supplier,gambling house,
+,high school,,catering,urgent care center,
+,flooring contractor,,adult entertainment store,surgeon,
+,auction house,,bicycle shop,cafe,
+,bead store,,record store,blue island,
+,donations center,,spice store,police department,
+,round lake,,pharmacy,diabetes center,
+,used truck dealer,,craft store,public works department,
+,herb shop,,skate shop,amusement center,
+,packaging supply store,,luggage store,training centre,
+,mechanic,,movie rental kiosk,village hall,
+,fairground,,screen printer,marketing consultant,
+,quilt shop,,watch repair service,glass & mirror shop,
+,pottery store,,digital printer,corner cuts,
+,used appliance store,,wine bar,vocational school,
+,dj service,,satellite communication service,sign shop,
+,passport photo processor,,tattoo shop,attorney,
+,post office,,selfstorage facility,internist,
+,public swimming pool,,hair extensions supplier,cruise agency,
+,consultant,,airsoft supply store,appliance store,
+,banquet hall,,piano store,counselor,
+,fireplace store,,medical spa,social services organization,
+,assisted living facility,,veterinarian,familyfriendly,
+,outlet store,,pumpkin patch,radiologist,
+,country club,,bedroom furniture store,catholic church,
+,dollar store,,business administration service,association or organization,
+,industrial equipment supplier,,bakery,bar,
+,laser hair removal service,,computer support and services,education center,
+,food bank,,photographer,hardware store,
+,ranch,,battery store,physical fitness program,
+,indian grocery store,,home builder,campground,
+,1star hotel,,window treatment store,oil change service,
+,garage door supplier,,candle store,diyas inc,
+,college,,dessert shop,hypnotherapy service,
+,glass repair service,,cafe,temp agency,
+,air conditioning contractor,,boot store,trucking company,
+,children's clothing store,,sports nutrition store,united methodist church,
+,heating equipment supplier,,internet shop,construction equipment supplier,
+,stained glass studio,,hair salon,cleaning service,
+,marriage counselor,,sign shop,royal refrigeration,
+,health and beauty shop,,copy shop,sporting goods store,
+,furniture repair shop,,tshirt store,formal wear store,
+,confectionery,,jewellery manufacturer,hat shop,
+,professional services,,appliance store,medical equipment supplier,
+,sewing machine repair service,,garbage dump,travel agency,
+,car accessories store,,equestrian store,gymnastics center,
+,deli,,magic store,coffee shop,
+,public library,,souvenir store,coin dealer,
+,prison,,dairy farm,conference center,
+,tile store,,association or organization,dianna sutphen pc,
+,donuts,,hardware store,golf club,
+,baptist church,,home audio store,consignment shop,
+,outdoor furniture store,,shipping service,western apparel store,
+,kitchen supply store,,construction equipment supplier,,
+,storage facility,,grill store,,
+,car repair and maintenance,,bowling alley,,
+,furniture accessories supplier,,balloon store,,
+,book publisher,,winery,,
+,landscaper,,general contractor,,
+,astrologer,,diaper service,,
+,floor refinishing service,,beauty product supplier,,
+,restaurant supply store,,coffee shop,,
+,model train store,,coin dealer,,
+,nissan dealer,,religious goods store,,
+,brake shop,,homeless shelter,,
+,manufacturer,,auto upholsterer,,
+,suzuki motorcycle dealer,,pawn shop,,
+,bank,,midwife,,
+,insurance agency,,needlework shop,,
+,discount store,,portrait studio,,
+,business management consultant,,dance store,,
+,costume store,,hvac contractor,,
+,supermarket,,golf club,,
+,caterer,,artist,,
+,picture frame shop,,sports card store,,
+,used computer store,,consignment shop,,
+,pest control service,,,,
+,printer repair service,,,,
+,lawn mower store,,,,
+,bridal shop,,,,
+,computer consultant,,,,
+,tea store,,,,
+,wedding photographer,,,,
+,tanning salon,,,,
+,native american goods store,,,,
+,electronics store,,,,
+,hickory hills,,,,
+,museum,,,,
+,shipping and mailing service,,,,
+,flag store,,,,
+,italian grocery store,,,,
+,round lake park,,,,
+,used car dealer,,,,
+,motor vehicle dealer,,,,
+,motorcycle dealer,,,,
+,waste management service,,,,
+,general store,,,,
+,window tinting service,,,,
+,medical laboratory,,,,
+,subaru dealer,,,,
+,doityourself shop,,,,
+,wool store,,,,
+,second hand store,,,,
+,science museum,,,,
+,beer store,,,,
+,art gallery,,,,
+,atm,,,,
+,genoa,,,,
+,jewelry store,,,,
+,collectibles store,,,,
+,truck dealer,,,,
+,african goods store,,,,
+,vacuum cleaner store,,,,
+,jewelry buyer,,,,
+,trading card store,,,,
+,auto parts store,,,,
+,photo shop,,,,
+,sewing shop,,,,
+,candy store,,,,
+,building materials supplier,,,,
+,bowling supply shop,,,,
+,tax preparation service,,,,
+,hyundai dealer,,,,
+,health spa,,,,
+,public safety office,,,,
+,drum store,,,,
+,auto broker,,,,
+,pinckneyville,,,,
+,musical instrument store,,,,
+,newsstand,,,,
+,fire breathing steel dragon,,,,
+,grocery delivery service,,,,
+,tractor dealer,,,,
+,photo lab,,,,
+,moving and storage service,,,,
+,truck repair shop,,,,
+,public school,,,,
+,paint store,,,,
+,fence supply store,,,,
+,weight loss service,,,,
+,tea and coffee merchant,,,,
+,ice cream,,,,
+,heating contractor,,,,
+,embroidery shop,,,,
+,skin care clinic,,,,
+,farmers' market,,,,
+,kennel,,,,
+,animal hospital,,,,
+,day care center,,,,
+,fashion accessories store,,,,
+,liquor store,,,,
+,home improvement store,,,,
+,snowmobile dealer,,,,
+,running store,,,,
+,auto body shop,,,,
+,mining company,,,,
+,electrical supply store,,,,
+,botanical garden,,,,
+,paper mill,,,,
+,home theater store,,,,
+,catholic school,,,,
+,educational supply store,,,,
+,antique furniture store,,,,
+,bait shop,,,,
+,storage,,,,
+,golf cart dealer,,,,
+,computer repair service,,,,
+,school,,,,
+,after school program,,,,
+,party store,,,,
+,asian grocery store,,,,
+,electric motor repair shop,,,,
+,wine store,,,,
+,library,,,,
+,security system supplier,,,,
+,harleydavidson dealer,,,,
+,mahomet,,,,
+,chevrolet dealer,,,,
+,furniture rental service,,,,
+,corporate office,,,,
+,roofing supply store,,,,
+,engraver,,,,
+,scrapbooking store,,,,
+,picnic ground,,,,
+,nut store,,,,
+,carpet store,,,,
+,truck accessories store,,,,
+,phone repair service,,,,
+,hospital,,,,
+,boat dealer,,,,
+,meat processor,,,,
+,promotional products supplier,,,,
+,mobile caterer,,,,
+,adult entertainment store,,,,
+,hypermarket,,,,
+,bicycle shop,,,,
+,psychic,,,,
+,spice store,,,,
+,pharmacy,,,,
+,trailer dealer,,,,
+,craft store,,,,
+,organic,,,,
+,movie rental kiosk,,,,
+,luggage store,,,,
+,mobile phone repair shop,,,,
+,watch repair service,,,,
+,screen printer,,,,
+,mazda dealer,,,,
+,wine bar,,,,
+,general hospital,,,,
+,county government office,,,,
+,selfstorage facility,,,,
+,tattoo shop,,,,
+,piano store,,,,
+,shed builder,,,,
+,veterinarian,,,,
+,pumpkin patch,,,,
+,lottery retailer,,,,
+,fabric store,,,,
+,bakery,,,,
+,mosque,,,,
+,battery store,,,,
+,computer support and services,,,,
+,brewing supply store,,,,
+,window treatment store,,,,
+,dessert shop,,,,
+,candle store,,,,
+,meditation center,,,,
+,urgent care center,,,,
+,cafe,,,,
+,police department,,,,
+,rv supply store,,,,
+,amusement center,,,,
+,internet shop,,,,
+,recording studio,,,,
+,distillery,,,,
+,marketing consultant,,,,
+,hair salon,,,,
+,glass & mirror shop,,,,
+,sign shop,,,,
+,baby store,,,,
+,copy shop,,,,
+,small engine repair service,,,,
+,woodworking supply store,,,,
+,tshirt store,,,,
+,internist,,,,
+,jewellery manufacturer,,,,
+,appliance store,,,,
+,equestrian store,,,,
+,magic store,,,,
+,souvenir store,,,,
+,perfume store,,,,
+,bathroom supply store,,,,
+,catholic church,,,,
+,association or organization,,,,
+,bar,,,,
+,education center,,,,
+,hamburger,,,,
+,hardware store,,,,
+,home audio store,,,,
+,organic food store,,,,
+,campground,,,,
+,oil change service,,,,
+,shipping service,,,,
+,acura dealer,,,,
+,outdoor clothing and equipment shop,,,,
+,chamber of commerce,,,,
+,construction equipment supplier,,,,
+,musician,,,,
+,bowling alley,,,,
+,balloon store,,,,
+,tourist information center,,,,
+,sporting goods store,,,,
+,formal wear store,,,,
+,winery,,,,
+,general contractor,,,,
+,hat shop,,,,
+,hospital equipment and supplies,,,,
+,medical equipment supplier,,,,
+,travel agency,,,,
+,painting studio,,,,
+,coffee shop,,,,
+,coin dealer,,,,
+,religious goods store,,,,
+,pawn shop,,,,
+,machine shop,,,,
+,needlework shop,,,,
+,honda dealer,,,,
+,olney,,,,
+,dance store,,,,
+,hvac contractor,,,,
+,day spa,,,,
+,golf club,,,,
+,artist,,,,
+,sports card store,,,,
+,consignment shop,,,,
+,catering food and drink supplier,,,,
+,western apparel store,,,,
