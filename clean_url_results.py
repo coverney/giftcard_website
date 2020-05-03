@@ -161,12 +161,13 @@ if __name__ == "__main__":
     #     zipcode = relevant_part.split(', ')[-1].split(' ')[1]
     #     print(place, state, zipcode)
 
-    # df = pd.read_csv('Massachusetts/massachusetts_clothing_stores_url_results.csv')
-    # df_searched, df_notsearched = filter_via_searchedcol(df)
-    # df_searched.to_csv('Massachusetts/massachusetts_clothing_stores_url_results_rnd1.csv', index=False)
-    # df_notsearched.to_csv('Massachusetts/massachusetts_clothing_stores_url_results_rnd2.csv', index=False)
+    df = pd.read_csv('Massachusetts/massachusetts_clothing_stores_url_results_rnd3.csv')
+    df_searched, df_notsearched = filter_via_searchedcol(df)
+    df_searched.to_csv('Massachusetts/massachusetts_clothing_stores_url_results_rnd3.csv', index=False)
+    assert len(df_notsearched) == 0
+    # df_notsearched.to_csv('Massachusetts/massachusetts_restaurants_url_results_rnd3.csv', index=False)
 
-    df_searched = pd.read_csv('Massachusetts/massachusetts_restaurants_url_results_rnd1.csv')
-    df_giftcard, df_contact = create_sub_dfs(df_searched, 'restaurant')
-    df_giftcard.to_csv('Massachusetts/massachusetts_restaurants_giftcard_results_rnd1.csv', index=False)
-    df_contact.to_csv('Massachusetts/massachusetts_restaurants_contact_results_rnd1.csv', index=False)
+    # df_searched = pd.read_csv('Massachusetts/massachusetts_restaurants_url_results_rnd1.csv')
+    df_giftcard, df_contact = create_sub_dfs(df_searched, 'clothing_store')
+    df_giftcard.to_csv('Massachusetts/massachusetts_clothing_stores_giftcard_results_rnd3.csv', index=False)
+    df_contact.to_csv('Massachusetts/massachusetts_clothing_stores_contact_results_rnd3.csv', index=False)

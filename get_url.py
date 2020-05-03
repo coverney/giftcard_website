@@ -109,7 +109,7 @@ def search_one_csv(df, state_name):
     df_grouped = df.groupby(by='place')
     dataframes = [group for _, group in df_grouped]
     print(len(dataframes))
-    for df_place in tqdm(dataframes[:]):
+    for df_place in tqdm(dataframes[:]): # 241
         counter = 0
         for index, row in df_place.iterrows():
             if counter > 5:
@@ -178,10 +178,10 @@ if __name__ == "__main__":
     # search_term_test = "cabots needham"
     # print(search(browser, search_term_test))
 
-    state_name = 'Massachusetts'
     # didn't finish museum for MA on group 2
-    df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_clothing_stores_url_results.csv')
-    # df_old = pd.read_csv(state_name+'/'+'Summary/'+'massachusetts_museums.csv')
-    search_one_csv(df_old, state_name).to_csv(state_name+'/'+state_name.lower()+'_clothing_stores_url_results.csv', index=False)
+    state_name = 'California'
+    df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
+    # df_old = pd.read_csv(state_name+'/'+'Summary/'+'california_beauty_salons.csv')
+    search_one_csv(df_old, state_name).to_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv', index=False)
 
     browser.quit()

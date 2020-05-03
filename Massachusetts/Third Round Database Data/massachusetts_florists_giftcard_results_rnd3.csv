@@ -1,0 +1,3 @@
+name,address,type,place,website_url,menu_url,description,gift_card_txt,gift_card_website,contact_website,contact_txt,searched,state,zipcode,store_type
+Mahoney's Garden Centers,"1625 Sudbury Rd, Concord, MA 01742",Garden center,Concord,http://mahoneysgarden.com/,,,Gift Cards,http://mahoneysgarden.com/gift-cards/,,,1,MA,01742,florist
+Stonegate Gardens,"339 S Great Rd, Lincoln, MA 01773",Garden center,Lincoln,http://stonegategardens.com/,,"Landscaped garden center & plant nursery with floral services, seasonal decor & a gift shop.",Gift Cards,https://www.stonegategardens.com/product/gift-card/,https://www.stonegategardens.com/contact-us/,Contact Us,1,MA,01773,florist
