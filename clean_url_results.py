@@ -161,13 +161,17 @@ if __name__ == "__main__":
     #     zipcode = relevant_part.split(', ')[-1].split(' ')[1]
     #     print(place, state, zipcode)
 
-    df = pd.read_csv('Massachusetts/massachusetts_clothing_stores_url_results_rnd3.csv')
+    state_name = 'California'
+    store_type = 'restaurants'
+    round_num = 1
+    df = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
     df_searched, df_notsearched = filter_via_searchedcol(df)
-    df_searched.to_csv('Massachusetts/massachusetts_clothing_stores_url_results_rnd3.csv', index=False)
-    assert len(df_notsearched) == 0
-    # df_notsearched.to_csv('Massachusetts/massachusetts_restaurants_url_results_rnd3.csv', index=False)
+    df_searched.to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv", index=False)
+    # assert len(df_notsearched) == 0
+    df_notsearched.to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num+1}.csv", index=False)
 
-    # df_searched = pd.read_csv('Massachusetts/massachusetts_restaurants_url_results_rnd1.csv')
-    df_giftcard, df_contact = create_sub_dfs(df_searched, 'clothing_store')
-    df_giftcard.to_csv('Massachusetts/massachusetts_clothing_stores_giftcard_results_rnd3.csv', index=False)
-    df_contact.to_csv('Massachusetts/massachusetts_clothing_stores_contact_results_rnd3.csv', index=False)
+    # df_searched = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
+    folder_name = 'First Round Database Data'
+    df_giftcard, df_contact = create_sub_dfs(df_searched, store_type[:-1])
+    df_giftcard.to_csv(f"{state_name}/{folder_name}/{state_name.lower()}_{store_type}_giftcard_results_rnd{round_num}.csv", index=False)
+    df_contact.to_csv(f"{state_name}/{folder_name}/{state_name.lower()}_{store_type}_contact_results_rnd{round_num}.csv", index=False)
