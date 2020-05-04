@@ -95,24 +95,24 @@
                       <div class="icon"><i class="bx bx-restaurant"></i></div>
                       <h4 class="title">{{stores[i].name}}</h4>
                       <p>{{stores[i].description}}</p>
-                      <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
-                      <p>Giftcard:<a href=http://{{stores[i].giftcard_url}}>{{stores[i].giftcard_url}}</a></p>
+                      <p>Address: {{stores[i].address}}</p>
+                      <p><a href=http://{{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
                     </div>
                   {% elif stores[i].storetype == "beauty-salon" %}
                     <div class="icon-box icon-box-pink">
                       <div class="icon"><i class="bx bx-face"></i></div>
                       <h4 class="title">{{stores[i].name}}</h4>
                       <p>{{stores[i].description}}</p>
-                      <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
-                      <p>Giftcard:<a href=http://{{stores[i].giftcard_url}}>{{stores[i].giftcard_url}}</a></p>
+                      <p>Address: {{stores[i].address}}</p>
+                      <p><a href=http://{{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
                     </div>
                   {% else %}
                     <div class="icon-box icon-box-cyan">
                       <div class="icon"><i class="bx bx-store"></i></div>
                       <h4 class="title"><a href=""></a>{{stores[i].name}}</a></h4>
                       <p>{{stores[i].description}}</p>
-                      <p>Address: {{stores[i].address}}, {{stores[i].city}}, {{stores[i].state}}, {{stores[i].zipcode}}</p>
-                      <p>Giftcard:<a href=http://{{stores[i].giftcard_url}}>{{stores[i].giftcard_url}}</a></p>
+                      <p>Address: {{stores[i].address}}</p>
+                      <p><a href=http://{{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
                     </div>
                   {% endif %}
                 </div>
@@ -127,7 +127,6 @@
       </div>
     </section>
 
-    
     <!-- <div class="row" data-aos="fade-up">
       <div class="col-md-12">
         <div id="myBtnContainer">
