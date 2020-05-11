@@ -110,11 +110,13 @@ def search_one_csv(df, state_name, start, end):
     df_grouped = df.groupby(by='place')
     dataframes = [group for _, group in df_grouped]
     print(len(dataframes))
-    for df_place in tqdm(dataframes[start:end]): # 235
+    if not end:
+        end = len(dataframes)
+    for df_place in tqdm(dataframes[start:end]):
         counter = 0
         for index, row in df_place.iterrows():
-            if counter > 5:
-                break
+            # if counter > 5:
+            #     break
             if pd.isna(row['address']):
                 search_term = row['name'] + " " + row['type'] + " in " + row['place'] + ', ' + state_name
                 res = search(browser, search_term)
@@ -180,11 +182,11 @@ if __name__ == "__main__":
     # print(search(browser, search_term_test))
 
     # didn't finish museum for MA on group 2
-    state_name = 'New_York'
-    store_type = 'beauty_salons'
-    round_num = 1
-    # df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
-    df_old = pd.read_csv(f"{state_name}/Summary/{state_name.lower()}_{store_type}.csv")
-    search_one_csv(df_old, state_name, 0, 50).to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv", index=False)
-
+    state_name = 'California'
+    store_type = 'clothing_stores'
+    round_num = 2
+    df_old = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
+    # df_old = pd.read_csv(f"{state_name}/Summary/{state_name.lower()}_{store_type}.csv")
+    search_one_csv(df_old, state_name, 200, None).to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv", index=False)
+    #221
     browser.quit()
