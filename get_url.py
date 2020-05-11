@@ -118,14 +118,14 @@ def search_one_csv(df, state_name, start, end):
             # if counter > 5:
             #     break
             if pd.isna(row['address']):
-                search_term = row['name'] + " " + row['type'] + " in " + row['place'] + ', ' + state_name
+                search_term = f"{row['name']} {row['type']} in {row['place']}, {state_name}"
                 res = search(browser, search_term)
             else:
-                search_term = row['name'] + " " + row['type'] + " in " + row['address'] + ', ' + state_name
+                search_term = f"{row['name']} {row['type']} in {row['address']}, {state_name}"
                 res = search(browser, search_term)
                 # if no results obtained, try with more general search term
                 if pd.isna(res[0]) and pd.isna(res[1]) and pd.isna(res[2]) and pd.isna(res[3]):
-                    search_term = row['name'] + " " + row['type'] + " in " + row['place'] + ', ' + state_name
+                    search_term = f"{row['name']} {row['type']} in {row['place']}, {state_name}"
                     res = search(browser, search_term)
             # if there is a website url then try to get the giftcard url
             df.loc[index, 'website_url'] = res[0]
@@ -154,8 +154,8 @@ def search_one_csv(df, state_name, start, end):
                     df.loc[index, 'contact_txt'] = contact_txt
                 else:
                     raise Exception('not a valid url?')
-            except:
-                print('Weird website:', website)
+            except Exception as e:
+                print(f"Weird website:{website} with error {e}")
     return df
 
 def search_state(state_name):
@@ -178,15 +178,29 @@ def search_state(state_name):
 
 if __name__ == "__main__":
     # search_term_test = "fuji steakhouse needham"
-    # search_term_test = "cabots needham"
+    # search_term_test = "Jumbo Chinese in 191 NY59, New York"
     # print(search(browser, search_term_test))
 
     # didn't finish museum for MA on group 2
-    state_name = 'California'
-    store_type = 'clothing_stores'
-    round_num = 2
-    df_old = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
-    # df_old = pd.read_csv(f"{state_name}/Summary/{state_name.lower()}_{store_type}.csv")
-    search_one_csv(df_old, state_name, 200, None).to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv", index=False)
-    #221
+    state_name = 'New York'
+    store_type = 'restaurants'
+    round_num = 1
+    start = 100
+    end = 200
+
+    # df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
+    if start == 0:
+        df = pd.read_csv(f"{state_name}/Summary/{state_name.lower()}_{store_type}.csv")
+    else:
+        df = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
+
+    for i in tqdm(range(start, end)):
+        try:
+            df = search_one_csv(df, state_name, i, i+1)
+        except Exception as e:
+            print(f"ended on {i} with error {e}")
+            break
+
+    print("Saving to csv now")
+    df.to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv", index=False)
     browser.quit()
