@@ -182,15 +182,15 @@ if __name__ == "__main__":
     state_name = 'New York'
     store_type = 'restaurants'
     round_num = 1
-    start = 100
-    end = 200
+    start = 0
+    end = 100
 
     # df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
     if start == 0:
         df = pd.read_csv(f"{state_name}/Summary/{state_name.lower()}_{store_type}.csv")
     else:
         df = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
-
+ 
     for i in tqdm(range(start, end)):
         try:
             df = search_one_csv(df, state_name, i, i+1)
