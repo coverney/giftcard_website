@@ -109,11 +109,14 @@ def search_one_csv(df, state_name, start, end):
         df['searched'] = 0
     df_grouped = df.groupby(by='place')
     dataframes = [group for _, group in df_grouped]
-    for df_place in dataframes[start:end]: # 235
+    print(len(dataframes))
+    if not end:
+        end = len(dataframes)
+    for df_place in tqdm(dataframes[start:end]):
         counter = 0
         for index, row in df_place.iterrows():
-            if counter > 5:
-                break
+            # if counter > 5:
+            #     break
             if pd.isna(row['address']):
                 search_term = f"{row['name']} {row['type']} in {row['place']}, {state_name}"
                 res = search(browser, search_term)
@@ -197,7 +200,7 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"ended on {i} with error {e}")
             break
-    
+
     print("Saving to csv now")
     df.to_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv", index=False)
     browser.quit()

@@ -161,8 +161,8 @@ if __name__ == "__main__":
     #     zipcode = relevant_part.split(', ')[-1].split(' ')[1]
     #     print(place, state, zipcode)
 
-    state_name = 'New York'
-    store_type = 'florists'
+    state_name = 'California'
+    store_type = 'clothing_stores'
     round_num = 1
     df = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
     df_searched, df_notsearched = filter_via_searchedcol(df)
