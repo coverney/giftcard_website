@@ -6,7 +6,9 @@ class Config(object):
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'blip-blop-boop'
-    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
+
+    # can also be imported from environment with os.environ()
+    SQLALCHEMY_DATABASE_URI = "postgresql:///giftcard_website"
 
 
 class ProductionConfig(Config):

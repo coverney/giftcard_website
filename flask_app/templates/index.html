@@ -96,7 +96,7 @@
                       <h4 class="title">{{stores[i].name}}</h4>
                       <p>{{stores[i].description}}</p>
                       <p>Address: {{stores[i].address}}</p>
-                      <p><a href=http://{{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
+                      <p><a href={{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
                     </div>
                   {% elif stores[i].storetype == "beauty-salon" %}
                     <div class="icon-box icon-box-pink">
@@ -104,7 +104,7 @@
                       <h4 class="title">{{stores[i].name}}</h4>
                       <p>{{stores[i].description}}</p>
                       <p>Address: {{stores[i].address}}</p>
-                      <p><a href=http://{{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
+                      <p><a href={{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
                     </div>
                   {% else %}
                     <div class="icon-box icon-box-cyan">
@@ -112,7 +112,7 @@
                       <h4 class="title"><a href=""></a>{{stores[i].name}}</a></h4>
                       <p>{{stores[i].description}}</p>
                       <p>Address: {{stores[i].address}}</p>
-                      <p><a href=http://{{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
+                      <p><a href={{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
                     </div>
                   {% endif %}
                 </div>
