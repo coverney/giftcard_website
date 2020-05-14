@@ -112,7 +112,7 @@ def search_one_csv(df, state_name, start, end):
     print(len(dataframes))
     if not end:
         end = len(dataframes)
-    for df_place in tqdm(dataframes[start:end]):
+    for df_place in dataframes[start:end]:
         counter = 0
         for index, row in df_place.iterrows():
             # if counter > 5:
@@ -182,11 +182,11 @@ if __name__ == "__main__":
     # print(search(browser, search_term_test))
 
     # didn't finish museum for MA on group 2
-    state_name = 'New York'
+    state_name = 'New Jersey'
     store_type = 'restaurants'
     round_num = 1
     start = 0
-    end = 100
+    end = 50
 
     # df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
     if start == 0:
