@@ -86,17 +86,27 @@
       </div>
       <div class="container">
         {% if show_stores== 1 %}
-          {% for r in range(stores|length // 4+1) %}
-            <div class="row">
-              {% for i in range(r*4, [r*4+4, stores|length]|min) %}
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+          <div id="filterBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('restaurant')"> Restaurants</button>
+            <button class="btn" onclick="filterSelection('beauty_salon')"> Beauty Salons</button>
+            <button class="btn" onclick="filterSelection('book_store')"> Book Stores</button>
+            <button class="btn" onclick="filterSelection('florist')"> Florists</button>
+            <button class="btn" onclick="filterSelection('clothing_store')"> Clothing Stores</button>
+          </div>
+          <div class="row"><p></p></div>
+          {% for i in range(stores|length) %}
+            <!-- <div class="row"> -->
+              <!--  for i in range(r*4, [r*4+4, stores|length]|min)  -->
+              <!-- d-flex was used to max length -->
+                <div class="col-md-6 col-lg-3 align-items-stretch filterStore {{stores[i].storetype}}">
                   {% if stores[i].storetype == "restaurant" %}
                     <div class="icon-box icon-box-green">
                       <div class="icon"><i class="bx bx-restaurant"></i></div>
                       <h4 class="title">{{stores[i].name}}</h4>
                       <p>{{stores[i].description}}</p>
                       <p>Address: {{stores[i].address}}</p>
-                      <p><a href={{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
+                      <p><a href={{stores[i].giftcard_url}} target="_blank">Purchase a Giftcard</a></p>
                     </div>
                   {% elif stores[i].storetype == "beauty-salon" %}
                     <div class="icon-box icon-box-pink">
@@ -104,7 +114,7 @@
                       <h4 class="title">{{stores[i].name}}</h4>
                       <p>{{stores[i].description}}</p>
                       <p>Address: {{stores[i].address}}</p>
-                      <p><a href={{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
+                      <p><a href={{stores[i].giftcard_url}} target="_blank">Purchase a Giftcard</a></p>
                     </div>
                   {% else %}
                     <div class="icon-box icon-box-cyan">
@@ -112,48 +122,20 @@
                       <h4 class="title"><a href=""></a>{{stores[i].name}}</a></h4>
                       <p>{{stores[i].description}}</p>
                       <p>Address: {{stores[i].address}}</p>
-                      <p><a href={{stores[i].giftcard_url}}>Purchase a Giftcard</a></p>
+                      <p><a href={{stores[i].giftcard_url}} target="_blank">Purchase a Giftcard</a></p>
                     </div>
                   {% endif %}
                 </div>
-              {% endfor %}
-            </div>
+              <!--  endfor  -->
+            <!-- </div> -->
           {% endfor %}
         {% else %}
           <div class="row" data-aos="fade-up">
             <h4 class="center">Sorry, we still haven't reached your area yet.</h4>
-          </div>    
+          </div>
         {% endif %}
       </div>
     </section>
-
-    <!-- <div class="row" data-aos="fade-up">
-      <div class="col-md-12">
-        <div id="myBtnContainer">
-          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-          <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-          <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-          <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-          <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-        </div>
-
-        <div class="container">
-          <div class="filterDiv cars">BMW</div>
-          <div class="filterDiv colors fruits">Orange</div>
-          <div class="filterDiv cars">Volvo</div>
-          <div class="filterDiv colors">Red</div>
-          <div class="filterDiv cars animals">Mustang</div>
-          <div class="filterDiv colors">Blue</div>
-          <div class="filterDiv animals">Cat</div>
-          <div class="filterDiv animals">Dog</div>
-          <div class="filterDiv fruits">Melon</div>
-          <div class="filterDiv fruits animals">Kiwi</div>
-          <div class="filterDiv fruits">Banana</div>
-          <div class="filterDiv fruits">Lemon</div>
-          <div class="filterDiv animals">Cow</div>
-        </div>
-      </div>
-    </div> -->
 
   </main><!-- End #main -->
 
@@ -214,7 +196,7 @@
   <!-- Template Main JS File -->
   <script src="static/assets/js/main.js"></script>
 
-  <!-- <script src="static/assets/js/utils.js"></script> -->
+  <script src="static/assets/js/utils.js"></script>
 
 </body>
 
