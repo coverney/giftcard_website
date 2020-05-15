@@ -76,7 +76,7 @@ def render_search():
         elif query.lower() in us_state_abbrev: # state full name
             stores = list(Store.query.filter_by(state=us_state_abbrev[query.lower()]))
         else:
-            stores = list()
+            stores = list(Store.query.filter_by(city=query))
         if stores:
             show_stores = 1
         else:
