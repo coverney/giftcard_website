@@ -2,9 +2,12 @@ import os
 from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
+from state_abbrev import us_state_abbrev
+
 app = Flask(__name__)
 
-app.config.from_object(os.environ['APP_SETTINGS'])
+# app.config.from_object(os.environ['APP_SETTINGS'])
+app.config.from_object("config.DevelopmentConfig")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -65,11 +68,20 @@ def render_index():
 def render_search():
     if request.args:
         query = request.args['search']
-        stores = list(Store.query.filter_by(zipcode=query))
+        print(query)
+        if query.isnumeric(): # zipcode
+            stores = list(Store.query.filter_by(zipcode=query))
+        elif len(query) == 2: # state abbrev
+            stores = list(Store.query.filter_by(state=query))
+        elif query.lower() in us_state_abbrev: # state full name
+            stores = list(Store.query.filter_by(state=us_state_abbrev[query.lower()]))
+        else:
+            stores = list(Store.query.filter_by(city=query))
         if stores:
             show_stores = 1
         else:
             show_stores = 0
+        print(show_stores)
         return render_template('index.html', stores=stores, show_stores=show_stores)
     else:
         return render_template('index.html')

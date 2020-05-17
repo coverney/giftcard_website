@@ -180,12 +180,11 @@ if __name__ == "__main__":
     # print(search(browser, search_term_test))
 
     # didn't finish museum for MA on group 2
-    state_name = 'California'
+    state_name = 'New Jersey'
     store_type = 'restaurants'
-    round_num = 3
-    start = 187
-    end = 200
-    # 200
+    round_num = 1
+    start = 0
+    end = 50
 
     # df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
     if start == 0 and round_num == 1:
