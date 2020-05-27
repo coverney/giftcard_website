@@ -110,8 +110,6 @@ def search_one_csv(df, state_name, start, end):
     df_grouped = df.groupby(by='place')
     dataframes = [group for _, group in df_grouped]
     print(len(dataframes))
-    if not end:
-        end = len(dataframes)
     for df_place in dataframes[start:end]:
         counter = 0
         for index, row in df_place.iterrows():
@@ -189,11 +187,11 @@ if __name__ == "__main__":
     end = 50
 
     # df_old = pd.read_csv(state_name+'/'+state_name.lower()+'_beauty_salons_url_results_rnd1.csv')
-    if start == 0:
+    if start == 0 and round_num == 1:
         df = pd.read_csv(f"{state_name}/Summary/{state_name.lower()}_{store_type}.csv")
     else:
         df = pd.read_csv(f"{state_name}/{state_name.lower()}_{store_type}_url_results_rnd{round_num}.csv")
- 
+
     for i in tqdm(range(start, end)):
         try:
             df = search_one_csv(df, state_name, i, i+1)
