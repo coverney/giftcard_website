@@ -3,6 +3,10 @@ from flask_migrate import Migrate, MigrateCommand
 
 from app import app, db
 
+# python manage.py db init
+# python manage.py db migrate
+# python manage.py db upgrade
+
 migrate = Migrate(app, db)
 manager = Manager(app)
 
